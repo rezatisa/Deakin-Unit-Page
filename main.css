@@ -24,7 +24,21 @@ tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
-div{
-  background-color: blue;
-  text-align: right;
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #00539b;
+  padding: 16px 24px;
+}
+
+.site-header h1 {
+  color: white;
+  margin: 0;
+  font-size: 28px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
 }
