@@ -77,3 +77,46 @@ tr:hover td:last-child {
     width: 60px;
   }
 }
+
+/* Content and Hurdle sections */
+.unit-content,
+.hurdle-requirement {
+  max-width: 900px;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+}
+
+.unit-content h3,
+.hurdle-requirement h3 {
+  color: #1e4d8b;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.unit-content p,
+.hurdle-requirement p {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Unit links section */
+.unit-links {
+  max-width: 900px;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f4f8fc;
+  border: 1px solid #cfe0f2;
+  border-radius: 4px;
+}
+
+.unit-links a {
+  display: block;
+  color: #6b3fa0;
+  text-decoration: underline;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.unit-links a:hover {
+  color: #4a2c70;
+}
