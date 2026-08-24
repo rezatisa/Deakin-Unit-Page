@@ -16,4 +16,16 @@ p {
   font-family: Arial
 }
 
+.main-header {
+  background-color: #008050; /* Adjusted green shade as needed */
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100px; /* Adjusted height to fit header */
+  width: auto;
+}
+
 
